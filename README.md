@@ -1,2 +1,2 @@
-# Pareto-Invest
-IT2805 project
+# IT2805
+Pareto Invest website
