@@ -1,0 +1,71 @@
+body {
+  margin:auto;
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #F0F8FF;
+}
+
+h1{
+  font-size: 45px;
+  color: #4682B4;
+}
+
+h2 {
+  color: #31697E;
+}
+
+h3{
+  color: #558da1;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+#navigation_structure{
+  width:500px;
+  height: auto;
+}
+
+.mockup {
+  width: 500px;
+  height: auto;
+}
+
+#byline{
+  padding-bottom:10px;
+  border-bottom-style:solid;
+  border-bottom-width:thin;
+}
+
+.avsnitt {
+  margin:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style:
+
+}
+
+footer {
+  width: 100%;
+  height: 75px;
+  margin-top: 20px;
+  position:relative;
+  border-top-style:solid;
+  border-top-width: thin;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+th{
+  text-align:left;
+  color: rgb(98, 97, 97);
+}
