@@ -20,6 +20,13 @@
         <p>The name of our client is Pareto Invest NTNU, and our contact person within the company is Eirik Lile Vaagen.</p>
         </section>
 
+        <section class="avsnitt">
+            <h2>Link to website</h2>
+            <p>Here is the link to the website, that is located on NTNU's domain. You will find the P2 document
+                in the project folder, then prosjekt-it2805 folder, and then p2.</p>
+            <a href="https://folk.ntnu.no/rebeccli/" target="_blank">Website (P2)</a>
+        </section>
+
 
         <section class="avsnitt">
         <h2>Purpose, goals and audience</h2>
@@ -39,7 +46,7 @@
             be possible to reach the homepage with clicking the at the logo, and the navigation bar will be accessable from all pages.
             In the navigation bar, there will be links pointing to each page. Some of these will not be visible before they are hovered
             upon (dropdown navigation bar), but it should still be possible to reach any page in three or less clicks, which is another goal.</p>
-            <img src="navigation_structure.png" alt="Graphic representation of the navigation structure" width="500">
+            <img id="navigation_structure" src="navigation_structure.png" alt="Graphic representation of the navigation structure" width="500">
         </section>
 
 
@@ -85,7 +92,8 @@
                 colour to a darker shade.
                 <br>
                 The font colour in the navigation bar is going to be #231F20, and the background colour should be #B5ACA7.
-                The dropdown colour will be #B5ACA7 with 50% transparancy.
+                The dropdown colour will be #B5ACA7 with 50% transparancy. When hovering the mouse over the tabs in the 
+                navigation bar, the colour will change to #D9D9D9 with 30% transparency.
             </li>
             <li>Footer
                 <br>
@@ -105,6 +113,13 @@
                 The banner of the website will be Pareto Invest's logo (paretoinvest_liggende_fargetlogo_hvit.jpg).
                 It will be located at the top of each page, and will also be a link that brings the user back to the homepage.
             </li>
+            <li>Pictures
+                <br>
+                Values will be specified in percentages, and will be relative to screen size. This will increase the usability 
+                of the page, and make it transferable to different size desktops and mobile devices. We also want to add a functionality 
+                where the user, by clicking the image, will open a full-size image within the same tab, with an “x”-exit symbol. This way, 
+                we can compromise the pages size, simultaneously as the user can choose to view each image full-size.
+            </li>
         </ul>
 
         </section>
@@ -118,11 +133,13 @@
         <h3>homepage.html</h3>
         <p>As the homepage will be the first page to appear when visiting the site, we want a clear design that isn’t too loud or noisy 
             as a first impression. As Pareto Invest is an investment group, we want it to have a professional and clean look. Therefore, 
-            it should not be too much information on this page, it may be experienced as overwhelming. The information will be provided in other pages on the website.</p>
+            it should not be too much information on this page, as it may be experienced as overwhelming. The information will be provided in other pages on the website.</p>
         <p>The homepage should contain a large picture of the logo as well as the name, so that the user quickly will understand who the 
             site belongs to. In addition, the client has requested a continuous live-updating of the fonds development 
             (with inspiration from Oljefondet).</p>
-        <p>Picture...</p>
+        <img class="mockup" src="mockups/homepage.png" alt="mockup of the homepage">
+        <p>Both the header and the picture of the building (fasade.jpg) will have a width of 100% of the body. The reason for this is that we want the website to fit all devices, and to adjust with the size of the screen. The footer and navigation bar will also have a width of 100% of the body size.
+            We have four pictures in the footer: a watermark and the logos for LinkedIn, Instagram and Facebook. The logos will act as links to the different social medias of Pareto Invest.</p>
 
         <h3>about.html</h3>
         <p>The “About” page should be the page where the users will find the information about Pareto invest.
@@ -132,6 +149,7 @@
             Therefore, the information should be the main part of the page. It will be one of the first impressions for students, 
             and potential sponsors and partners, which again emphasizes the importance of a clean and simple structure.</p>
         <p>There will also be an image of the group on this page. This picture should be … (position, size, border…)</p>
+        <img class="mockup" src="mockups/om oss.png" alt="mockup of the about page">
 
         <h3>contact.html</h3>
         <p>The “contact” page will allow the user to easily get an overview on how and where to get in contact with Pareto Invest.
@@ -139,12 +157,15 @@
             groups appointed contact person/appointed contact email. This page will help fullfilling the goal of the website being a
             platform where students, sponsors and partners (both existing and potential) can reach Pareto Invest.</p>
         <p>The map...</p>
+        <img class="mockup" src="mockups/kontakt2.png" alt="mockup of the contact page">
 
         <h3>sponsors.html</h3>
-        <p>The “sponsors” page will provide a systematic and clear overview of the sponsors, ideally in a gallery-layout. This way, 
-            the user can find out more about the group's collaboration partners, and thereby get into further research. This is important 
+        <p>The “sponsors” page will provide a systematic and clear overview of the sponsors, ideally in a gallery-layout. 
+            The picture of each firms' logo should also be a link to the sponsors' respective websites.
+            This way, the user can find out more about the group's collaboration partners, and thereby get into further research. This is important 
             to provide as much information as possible, and thereby build Pareto Invests credibility towards the user. </p>
         <p>The pictures...</p>
+        <img class="mockup" src="mockups/sponsorer2.png" alt="mockup of the sponsor page">
 
         <h3>macroeconomic_report.html</h3>
         <p>This page will contain the macroeconomic reports from Pareto Invest. Uploading continuous reports is beyond what we will 
@@ -152,6 +173,7 @@
             of Pareto Invest's work. In addition, it is something the target audience of the website most probably is interested in, 
             and it should therefor be included. This helps achieving the goals of provided information, and attracting sponsors/partners
             and new students.</p>
+        <img class="mockup" src="mockups/makrorapport.png" alt="mockup of the macroeconomic report page">
 
         <h3>quarterly_report.html</h3>
         <p>This page will contain the quarterly reports from Pareto Invest. Uploading continuous reports is beyond what we will 
@@ -159,31 +181,53 @@
             of Pareto Invest's work. In addition, it is something the target audience of the website most probably is interested in, 
             and it should therefor be included. This helps achieving the goals of provided information, and attracting sponsors/partners
             and new students.</p>
+        <img class="mockup" src="mockups/kvartalsrapport.png" alt="mockup of the quarterly report page">
 
         </section>
-
 
         <section class="avsnitt">
-        <h2>Minimum requirements</h2>
-
-        <ul>
-            <li>Functional requirements
-                <ol>
-                    <li>Navigation structure</li>
-                    <li>Links to social media</li>
-                    <li>Continous updating of the fond development</li>
-                </ol>
+            <h2>Minimum requirements</h2>
+    
+            <ul>
+                <li>Functional requirements
+                    <ol>
+                        <li>Navigation structure</li>
+                        <p>The webpage will have a dropdown navigation bar. This will work as a functionalilty on the website,
+                            as the user will be able to click their way into different pages within the webpage. We will use
+                            JavaScript to implement this function. This will contribute to maintaing a clear layout on the page,
+                            but also keeping the choices of the site within reach. This way the user will be able to access all
+                            every part of the webpage within a minimum amount of clicks.
+                        </p>
+                        <li>Continous updating of the funds development</li>
+                        <p>As the client has requested, we want the site to contain a continous updating of the funds development.
+                            As an inspiration we look to Oljefondet's webpage, where you can follow the development of the funds value.
+                            Since we will not be able to implement any data acquisition, we will most likely create a functionin JavaScript,
+                            which will contineously update an imaginary value of the fund. This is simply to demonstrate how it would work in
+                            practice, and will cound as one of our functionalities.
+                        </p>
+                        <li>Opening pictures in extended view</li>
+                        <p>For some of the pages, such as the "about us"-page we will include pictures of the staff and/or the whole group.
+                            As one of our functionalities, we will make it possible that by clicking the images, the user opens an extended view
+                            of the picture, still within the same web page.
+                        </p>
+                        <li>File uploading</li>
+                        <p>Ideally, we would include the opportunity for the webpages owner (Pareto Invest) to upload files such as macroeconomic
+                            reports and quarterly reports. Later on, the user of the webpage should be able to open these files and/or download
+                            the files to their device. Since this is outside of our curriculum, we will create a functionality that demostrates the
+                            usage of this function, without acctually managing the file-uploading.
+                        </p>
+                    </ol>
+                    </li>
+                <li>Non-functional requirements
+                    <ol>
+                        <li>Each page shall load within one second</li>
+                        <li>Reach any page within three clicks or less</li>
+                        <li>Both mobile and desktop compatible</li>
+                    </ol>
                 </li>
-            <li>Non-functional requirements
-                <ol>
-                    <li>Each page shall load within one second</li>
-                    <li>Reach any page within three clicks or less</li>
-                    <li>Both mobile and desktop compatible</li>
-                </ol>
-            </li>
-
-        </ul>
-        </section>
+    
+            </ul>
+            </section>
 
 
         <section class="avsnitt">
@@ -193,27 +237,33 @@
 
         <h3>List of files and folders</h3>
         <p>All the following files will be stored in a folder called "paretoinvest".</p>
-        <ul class="list">
-            <li>homepage.html</li>
-            <li>about.html</li>
-            <li>contact.html</li>
-            <li>sponsors.html</li>
-            <li>macroeconomic_report.html</li>
-            <li>quarterly_report.html</li>
-            <li>style.css</li>
-            <li>images
-                <ul>
-                    <li>logo_image.png</li>
-                    <li>header_image.png</li>
-                    <li>favicon.png</li>
-                    <li>person1.png</li>
-                    <li>person2.png</li>
-                    <li>group_picture.png</li>
-                    <li>sponsor1.png</li>
-                    <li>sponsor2.png</li>
+            <ul class="list">
+                <li>html</li>
+                <ul> 
+                    <li>homepage.html</li>
+                    <li>about.html</li>
+                    <li>contact.html</li>
+                    <li>sponsors.html</li>
+                    <li>macroeconomic_report.html</li>
+                    <li>quarterly_report.html</li>
                 </ul>
-            </li>
-        </ul>
+                <li>CSS</li>
+                <ul>
+                    <li>style.css</li>
+                </ul>
+                <li>images
+                    <ul>
+                        <li>logo_image.png</li>
+                        <li>header_image.png</li>
+                        <li>favicon.png</li>
+                        <li>person1.png</li>
+                        <li>person2.png</li>
+                        <li>group_picture.png</li>
+                        <li>sponsor1.png</li>
+                        <li>sponsor2.png</li>
+                    </ul>
+                </li>
+            </ul>
 
         <h3>Work division and deadlines</h3>
         <table class="table">
@@ -225,7 +275,9 @@
             </tr>
             <tr>
                 <td>homepage.html</td>
-                <td>The homepage, which is the first page you will be directed to when entering the website</td>
+                <td>The first page you will be directed to when entering the website</td>
+                <td>Rebecca</td>
+                <td>08.11.2022</td>
             </tr>
             <tr>
                 <td>about.html</td>
@@ -235,37 +287,37 @@
             </tr>
             <tr>
                 <td>contact.html</td>
-                <td>Links to other social media and contact information.</td>
+                <td>Links to other social media and contact information</td>
                 <td>Egil</td>
                 <td>08.11.2022</td>
             </tr>
             <tr>
                 <td>sponsors.html</td>
-                <td>Information about the current sponsors of Pareto Invest, and information for interested sponsors.</td>
+                <td>Information about the current sponsors of Pareto Invest, and information for interested sponsors</td>
                 <td>Erik</td>
                 <td>08.11.2022</td>
             </tr>
             <tr>
                 <td>macroeconomic_report.html</td>
-                <td>This page will contain macroeconomic reports for Pareto Invest. Uploading continuous reports is beyond what we will learn but we will create the shell so the client has the opportunity to create it later.</td>
+                <td>This page will contain macroeconomic reports for Pareto Invest</td>
                 <td>Dennis</td>
                 <td>08.11.2022</td>
             </tr>
             <tr>
                 <td>quarterly_report.html</td>
-                <td>This page will contain quarterly reports for Pareto Invest. Uploading continuous reports is beyond what we will learn but we will create the shell so the client has the opportunity to create it later.</td>
+                <td>This page will contain quarterly reports for Pareto Invest</td>
                 <td>Dennis</td>
                 <td>08.11.2022</td>
             </tr>
             <tr>
                 <td>style.css</td>
-                <td>The CSS file that contains all styling for the website.</td>
+                <td>The CSS file that contains all styling for the website</td>
                 <td>Vilde, Kristi</td>
                 <td>08.11.2022</td>
             </tr>
             <tr>
                 <td>Final controls</td>
-                <td>Double checking each file for errors, checking the Javascript and CSS.</td>
+                <td>Double checking each file for errors, checking the Javascript and CSS</td>
                 <td>All</td>
                 <td>12.11.2022</td>
             </tr>
