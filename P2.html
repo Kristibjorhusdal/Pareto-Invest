@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title>P2 test</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
       </head>
@@ -46,7 +47,7 @@
             be possible to reach the homepage with clicking the at the logo, and the navigation bar will be accessable from all pages.
             In the navigation bar, there will be links pointing to each page. Some of these will not be visible before they are hovered
             upon (dropdown navigation bar), but it should still be possible to reach any page in three or less clicks, which is another goal.</p>
-            <img id="navigation_structure" src="navigation_structure.png" alt="Graphic representation of the navigation structure" width="500">
+            <img id="navigation_structure" src="images/navigation_structure.png" alt="Graphic representation of the navigation structure" width="500">
         </section>
 
 
@@ -137,7 +138,7 @@
         <p>The homepage should contain a large picture of the logo as well as the name, so that the user quickly will understand who the 
             site belongs to. In addition, the client has requested a continuous live-updating of the fonds development 
             (with inspiration from Oljefondet).</p>
-        <img class="mockup" src="mockups/homepage.png" alt="mockup of the homepage">
+        <img class="mockup" src="images/mockups/homepage.png" alt="mockup of the homepage">
         <p>Both the header and the picture of the building (fasade.jpg) will have a width of 100% of the body. The reason for this is that we want the website to fit all devices, and to adjust with the size of the screen. The footer and navigation bar will also have a width of 100% of the body size.
             We have four pictures in the footer: a watermark and the logos for LinkedIn, Instagram and Facebook. The logos will act as links to the different social medias of Pareto Invest.</p>
 
@@ -148,24 +149,22 @@
         <p>This page is a contributor in achieving the goal that is to provide easy access to information of the group.
             Therefore, the information should be the main part of the page. It will be one of the first impressions for students, 
             and potential sponsors and partners, which again emphasizes the importance of a clean and simple structure.</p>
-        <p>There will also be an image of the group on this page. This picture should be … (position, size, border…)</p>
-        <img class="mockup" src="mockups/om oss.png" alt="mockup of the about page">
+        <p>There will also be an image of the group on this page.</p>
+        <img class="mockup" src="images/mockups/om_oss.png" alt="mockup of the about page">
 
         <h3>contact.html</h3>
         <p>The “contact” page will allow the user to easily get an overview on how and where to get in contact with Pareto Invest.
             We will include an address to the office (linked to maps), linking to other social media and contact information to the 
             groups appointed contact person/appointed contact email. This page will help fullfilling the goal of the website being a
             platform where students, sponsors and partners (both existing and potential) can reach Pareto Invest.</p>
-        <p>The map...</p>
-        <img class="mockup" src="mockups/kontakt2.png" alt="mockup of the contact page">
+        <img class="mockup" src="images/mockups/kontakt2.png" alt="mockup of the contact page">
 
         <h3>sponsors.html</h3>
         <p>The “sponsors” page will provide a systematic and clear overview of the sponsors, ideally in a gallery-layout. 
             The picture of each firms' logo should also be a link to the sponsors' respective websites.
             This way, the user can find out more about the group's collaboration partners, and thereby get into further research. This is important 
             to provide as much information as possible, and thereby build Pareto Invests credibility towards the user. </p>
-        <p>The pictures...</p>
-        <img class="mockup" src="mockups/sponsorer2.png" alt="mockup of the sponsor page">
+        <img class="mockup" src="images/mockups/sponsorer2.png" alt="mockup of the sponsor page">
 
         <h3>macroeconomic_report.html</h3>
         <p>This page will contain the macroeconomic reports from Pareto Invest. Uploading continuous reports is beyond what we will 
@@ -173,7 +172,7 @@
             of Pareto Invest's work. In addition, it is something the target audience of the website most probably is interested in, 
             and it should therefor be included. This helps achieving the goals of provided information, and attracting sponsors/partners
             and new students.</p>
-        <img class="mockup" src="mockups/makrorapport.png" alt="mockup of the macroeconomic report page">
+        <img class="mockup" src="images/mockups/makrorapport.png" alt="mockup of the macroeconomic report page">
 
         <h3>quarterly_report.html</h3>
         <p>This page will contain the quarterly reports from Pareto Invest. Uploading continuous reports is beyond what we will 
@@ -181,7 +180,7 @@
             of Pareto Invest's work. In addition, it is something the target audience of the website most probably is interested in, 
             and it should therefor be included. This helps achieving the goals of provided information, and attracting sponsors/partners
             and new students.</p>
-        <img class="mockup" src="mockups/kvartalsrapport.png" alt="mockup of the quarterly report page">
+        <img class="mockup" src="images/mockups/kvartalsrapport.png" alt="mockup of the quarterly report page">
 
         </section>
 
@@ -191,31 +190,33 @@
             <ul>
                 <li>Functional requirements
                     <ol>
-                        <li>Navigation structure</li>
-                        <p>The webpage will have a dropdown navigation bar. This will work as a functionalilty on the website,
+                        <li>Navigation structure
+                            <br>
+                            The webpage will have a dropdown navigation bar. This will work as a functionalilty on the website,
                             as the user will be able to click their way into different pages within the webpage. We will use
                             JavaScript to implement this function. This will contribute to maintaing a clear layout on the page,
                             but also keeping the choices of the site within reach. This way the user will be able to access all
-                            every part of the webpage within a minimum amount of clicks.
-                        </p>
-                        <li>Continous updating of the funds development</li>
-                        <p>As the client has requested, we want the site to contain a continous updating of the funds development.
+                            every part of the webpage within a minimum amount of clicks.</li>
+                        <li>Continous updating of the funds development
+                            <br>
+                            As the client has requested, we want the site to contain a continous updating of the funds development.
                             As an inspiration we look to Oljefondet's webpage, where you can follow the development of the funds value.
                             Since we will not be able to implement any data acquisition, we will most likely create a functionin JavaScript,
                             which will contineously update an imaginary value of the fund. This is simply to demonstrate how it would work in
-                            practice, and will cound as one of our functionalities.
-                        </p>
-                        <li>Opening pictures in extended view</li>
-                        <p>For some of the pages, such as the "about us"-page we will include pictures of the staff and/or the whole group.
+                            practice, and will cound as one of our functionalities.</li>
+
+                        <li>Opening pictures in extended view
+                            <br>
+                            For some of the pages, such as the "about us"-page we will include pictures of the staff and/or the whole group.
                             As one of our functionalities, we will make it possible that by clicking the images, the user opens an extended view
-                            of the picture, still within the same web page.
-                        </p>
-                        <li>File uploading</li>
-                        <p>Ideally, we would include the opportunity for the webpages owner (Pareto Invest) to upload files such as macroeconomic
+                            of the picture, still within the same web page.</li>
+                        <li>File uploading
+                            <br>
+                            Ideally, we would include the opportunity for the webpages owner (Pareto Invest) to upload files such as macroeconomic
                             reports and quarterly reports. Later on, the user of the webpage should be able to open these files and/or download
                             the files to their device. Since this is outside of our curriculum, we will create a functionality that demostrates the
                             usage of this function, without acctually managing the file-uploading.
-                        </p>
+                        </li>
                     </ol>
                     </li>
                 <li>Non-functional requirements
@@ -238,7 +239,7 @@
         <h3>List of files and folders</h3>
         <p>All the following files will be stored in a folder called "paretoinvest".</p>
             <ul class="list">
-                <li>html</li>
+                <li>html
                 <ul> 
                     <li>homepage.html</li>
                     <li>about.html</li>
@@ -246,11 +247,11 @@
                     <li>sponsors.html</li>
                     <li>macroeconomic_report.html</li>
                     <li>quarterly_report.html</li>
-                </ul>
-                <li>CSS</li>
+                </ul></li>
+                <li>CSS
                 <ul>
                     <li>style.css</li>
-                </ul>
+                </ul></li>
                 <li>images
                     <ul>
                         <li>logo_image.png</li>
@@ -327,9 +328,9 @@
         </section>
 
         </article>
-      </body>
 
-      <footer>
+    <footer>
         <p>Vilde, Kristi, Erik, Egil, Dennis and Rebecca</p>
-        </footer>
+    </footer>
+    </body>
 </html>
